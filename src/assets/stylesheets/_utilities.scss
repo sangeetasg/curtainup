@@ -1,0 +1,24 @@
+// Flex
+.flex-1 {
+  flex: 1 !important;
+}
+
+// Scroll
+.scroll-x {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  @include scrollbars();
+}
+
+.scroll-y {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  @include scrollbars();
+}
+
+// Disabled
+.disabled {
+  pointer-events: none !important;
+  opacity: 0.65 !important;
+}
+
