@@ -7,7 +7,7 @@ body {
   @extend .scroll-y;
 }
 
-main#root {
+#root {
   display: flex;
   flex-direction: column;
   height: 100vh;
