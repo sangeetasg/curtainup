@@ -22,3 +22,31 @@
   opacity: 0.65 !important;
 }
 
+// Font Size
+.fs-md {
+  font-size: $font-size-md !important;
+}
+
+.fs-sm {
+  font-size: $font-size-sm !important;
+}
+
+.fs-xs {
+  font-size: $font-size-xs !important;
+}
+
+.fs-mini {
+  font-size: $font-size-mini !important;
+}
+
+.fs-large {
+  font-size: $font-size-large !important;
+}
+
+// Font Weights
+.fw-medium {
+  font-weight: $font-weight-medium !important;
+}
+
+// Link
+$link-decoration: none;

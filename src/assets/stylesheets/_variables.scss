@@ -1,1 +1,32 @@
 $black: #000000;
+
+$gray-cod: #120F10;
+$orange-karry: #FFEBD6;
+$orange-carrot: #EF9026;
+
+$body-color: $gray-cod;
+
+// Prefix for :root CSS variables
+$variable-prefix: cu-;
+
+// Font
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$font-family-base: var(--#{$variable-prefix}font-sans-serif);
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-mini: $font-size-base * 0.625;
+$font-size-xs: $font-size-base * 0.75;
+$font-size-sm: $font-size-base * 0.875;
+$font-size-md: $font-size-base * 1.125;
+$font-size-lg: $font-size-base * 1.25;
+$font-size-large: $font-size-base * 3.25;
+
+$font-weight-lighter: 100;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-bolder: 900;
+
+$font-weight-base: $font-weight-normal;
