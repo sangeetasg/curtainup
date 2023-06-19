@@ -1,8 +1,9 @@
+import Auth from "../shared/Auth";
 
 const Login = () => {
   return (
     <>
-      <h1>Login page</h1>
+      <Auth/>
     </>
   )
 }

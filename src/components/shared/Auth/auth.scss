@@ -1,0 +1,23 @@
+@import "../../../assets/stylesheets/core";
+
+.page-auth {
+  background-color: $orange-karry;
+}
+
+.page-auth-wrapper {
+  background: url("../../../assets/images/auth-bg.png") no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+.page-logo-section {
+  flex: 0 0 22rem;
+  padding: 7.5rem 0;
+}
+
+.auth-logo {
+  width: 6rem;
+
+  >img {
+    width: 100%;
+  }
+}
