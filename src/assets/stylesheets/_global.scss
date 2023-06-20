@@ -19,3 +19,44 @@ body {
   outline: none;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+input:-internal-autofill-selected {
+  background-color: $input-bg !important;
+  -webkit-text-fill-color: $input-color;
+  -webkit-box-shadow: 0 0 0 1000px $white inset;
+  box-shadow: 0 0 0 1000px $white inset;
+}
+
+.btn-outline-primary{
+  // @include button-variant(background-color, border-color, text-color);
+  @include button-outline-variant(
+    $primary,
+    $white,
+    $primary,
+    $primary,
+    $white
+  );
+}
+
+.btn-primary{
+  // @include button-variant(background-color, border-color, text-color);
+  @include button-variant(
+    $primary,
+    $primary,
+    $white,
+    darken($primary, 5%),
+    darken($primary, 7.5%),
+    $white,
+    darken($primary, 5%),
+    darken($primary, 7.5%),
+    $white
+  );
+}
