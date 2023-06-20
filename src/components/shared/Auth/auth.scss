@@ -1,0 +1,34 @@
+@import "../../../assets/stylesheets/core";
+
+.page-auth {
+  background-color: $orange-karry;
+}
+
+.page-auth-wrapper {
+  background: url("../../../assets/images/auth-bg.png") no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+.page-logo-section {
+  flex: 0 0 22rem;
+  padding: 7.5rem 0;
+}
+
+.auth-logo {
+  width: 6rem;
+
+  >img {
+    width: 100%;
+  }
+}
+
+.card-auth {
+  max-width: 30rem;
+
+  .card-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.013rem;
+    color: $browne-cocoa;
+  }
+}

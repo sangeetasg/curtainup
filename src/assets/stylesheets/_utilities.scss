@@ -1,0 +1,56 @@
+// Flex
+.flex-1 {
+  flex: 1 !important;
+}
+
+// Scroll
+.scroll-x {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  @include scrollbars();
+}
+
+.scroll-y {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  @include scrollbars();
+}
+
+// Disabled
+.disabled {
+  pointer-events: none !important;
+  opacity: 0.65 !important;
+}
+
+// Font Size
+.fs-md {
+  font-size: $font-size-md !important;
+}
+
+.fs-sm {
+  font-size: $font-size-sm !important;
+}
+
+.fs-xs {
+  font-size: $font-size-xs !important;
+}
+
+.fs-mini {
+  font-size: $font-size-mini !important;
+}
+
+.fs-large {
+  font-size: $font-size-large !important;
+}
+
+// Font Weights
+.fw-medium {
+  font-weight: $font-weight-medium !important;
+}
+
+.fw-semibold {
+  font-weight: $font-weight-semibold !important;
+}
+
+// Link
+$link-decoration: none;

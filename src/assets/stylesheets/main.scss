@@ -1,0 +1,16 @@
+// Configuration
+@import "./core";
+@import "~bootstrap/scss/utilities";
+@import "./utilities";
+
+// Layout & components
+@import "./bootstrap-components";
+
+// Helpers
+@import "~bootstrap/scss/helpers";
+
+// Utilities
+@import "~bootstrap/scss/utilities/api";
+
+// Global
+@import "./global";
