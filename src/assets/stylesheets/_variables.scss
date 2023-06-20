@@ -7,10 +7,19 @@ $gray63:#A1A1A1;
 $gray-cod: #120F10;
 $orange-karry: #FFEBD6;
 $orange-carrot: #EF9026;
-$brown-cocoa: #3A1E00;
+$browne-cocoa: #3A1E00;
 
+
+$orange: $orange-carrot;
 
 $body-color: $gray-cod;
+
+$colors: (
+  "orange": $orange,
+);
+
+// Theme Colors Overrides
+$primary : $orange;
 
 // Prefix for :root CSS variables
 $variable-prefix: cu-;
