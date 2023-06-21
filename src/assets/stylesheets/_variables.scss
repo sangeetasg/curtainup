@@ -1,10 +1,12 @@
 $black: #000000;
 $white: #ffffff;
-$gray20: #333333;
+$gray20:#333333;
 $gray63:#A1A1A1;
+$gray97:#F8F8F8;
 
 
 $gray-cod: #120F10;
+$white-floral:#FFF8F1;
 $orange-karry: #FFEBD6;
 $orange-carrot: #EF9026;
 $browne-cocoa: #3A1E00;
@@ -13,6 +15,7 @@ $browne-cocoa: #3A1E00;
 $orange: $orange-carrot;
 
 $body-color: $gray-cod;
+$body-bg: $gray97;
 
 $colors: (
   "orange": $orange,
