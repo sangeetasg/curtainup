@@ -1,0 +1,13 @@
+@import "../../../assets/stylesheets/core";
+
+.cu-page-header {
+  border-radius: 0.5rem;
+
+  .auth-logo {
+    width: 1.75rem;
+  }
+
+  .btn-logout {
+    color: $browne-cocoa;
+  }
+}

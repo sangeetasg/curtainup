@@ -1,0 +1,31 @@
+@import "../../../assets/stylesheets/core";
+
+.cu-nav-item {
+
+  svg {
+    color: $browne-cocoa;
+  }
+
+  .nav-link {
+    color: $browne-cocoa;
+  }
+
+  &.active, &:hover {
+    .nav-icon {
+      // padding:0.5rem;
+      border-radius: 0.25rem;
+      background-color: $white-floral;
+    }
+    svg {
+      font-size: 1.125rem;
+      color: $primary;
+    }
+
+    .nav-link {
+      font-size: 1.125rem;
+      font-weight: bold;
+      color: $primary;
+    }
+  }
+
+}
