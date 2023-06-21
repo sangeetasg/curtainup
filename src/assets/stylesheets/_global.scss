@@ -60,3 +60,22 @@ input:-internal-autofill-selected {
     $white
   );
 }
+
+//Back button
+
+.cu-back-btn {
+  background-color: $white-floral;
+  border-radius: 0.5rem;
+
+  svg {
+    color: $gray20;
+  }
+
+  &:hover, &:active {
+  background-color: $white-floral;
+
+  svg {
+    color: $gray20;
+  }
+  }
+}
