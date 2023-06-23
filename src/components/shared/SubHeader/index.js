@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import { BiLeftArrowAlt } from "react-icons/bi";
 import "./subHeader.scss";
 import ButtonIcon from '../ButtonIcon';
 import { Button } from 'react-bootstrap';
+import { BiArrowBack } from 'react-icons/bi';
 
 const SubHeader = ({pageTitle, backarrow,pageButton, pageButtonText }) => {
 
@@ -11,7 +11,7 @@ const SubHeader = ({pageTitle, backarrow,pageButton, pageButtonText }) => {
       <div className='d-flex align-items-center gap-3'>
         {backarrow && 
           <ButtonIcon className="cu-back-btn p-2">
-            <BiLeftArrowAlt className='fs-5'/>
+            <BiArrowBack className='fs-5'/>
           </ButtonIcon>
         }
         <h1 className="fs-4 fw-semibold mb-0">{pageTitle}</h1>
