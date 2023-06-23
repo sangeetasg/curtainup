@@ -33,6 +33,24 @@ input:-internal-autofill-selected {
   -webkit-text-fill-color: $input-color;
   -webkit-box-shadow: 0 0 0 1000px $white inset;
   box-shadow: 0 0 0 1000px $white inset;
+  border: 1px solid $primary;
+}
+
+.cu-addon-group {
+  position: relative;
+
+  .form-control-icon {
+    display: none;
+  }
+
+  &.input-filled-state {
+    .form-control-icon {
+      display: block;
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+    }
+  }
 }
 
 .btn-outline-primary{
