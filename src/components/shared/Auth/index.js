@@ -18,7 +18,7 @@ const Auth = ({ authHeading, children}) =>{
         <div className="page-auth-section d-flex flex-1 align-items-center justify-content-center">
           <Card className="card-auth border-0 bg-transparent flex-1">
             <Card.Body className="p-0">
-              <Card.Title className="fw-bold mb-0">{authHeading}</Card.Title>
+              <Card.Title className="fs-4 fw-bold mb-0">{authHeading}</Card.Title>
               <span className="d-block fs-sm mb-5">Enter your details below.</span>
                 {children}
             </Card.Body>

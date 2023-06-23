@@ -15,8 +15,8 @@ const Login = () => {
   return (
     <>
       <Auth authHeading="Sign in">
-        <Form>
-          <Form.Group className="mb-4" controlId="exampleForm.ControlInput1">
+        <Form className='d-grid gap-4'>
+          <Form.Group controlId="exampleForm.ControlInput1">
             <Form.Label>Email</Form.Label>
             <Form.Control className="p-3 border-0 bg-white" type="email" placeholder="Enter your email" />
           </Form.Group>
@@ -31,7 +31,7 @@ const Login = () => {
               )}
             </InputGroup>
           </Form.Group>
-          <Form.Group className="d-grid pt-4">
+          <Form.Group className="d-grid pt-2">
             <Button variant="primary" type="submit" className="text-uppercase py-3 fw-bold">
               Login
             </Button>
